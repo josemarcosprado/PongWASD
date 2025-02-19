@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 34153b2efbbb839489fdf40d8fea6bb5
+guid: 85b9dae119c903441aa4d6ca5d7578f3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4072739111704973262
-    second: PONG_0
+      213: 7055366903784849090
+    second: botoes_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PONG_0
+      name: botoes_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 180
+        y: 130
+        width: 305
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2303cff2b59ba77c0800000000000000
-      internalID: -4072739111704973262
+      spriteID: 2ceb42c61d2b9e160800000000000000
+      internalID: 7055366903784849090
       vertices: []
       indices: 
       edges: []

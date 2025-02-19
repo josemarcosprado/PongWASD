@@ -202,7 +202,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1271597292}
+      - m_Target: {fileID: 1271597294}
         m_TargetAssemblyTypeName: NewMonoBehaviourScript, Assembly-CSharp
         m_MethodName: btnSair
         m_Mode: 1
@@ -213,7 +213,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &129332019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7055366903784849090, guid: c5faee422c3f20e4d9785417fdcd1330, type: 3}
+  m_Sprite: {fileID: 7055366903784849090, guid: 85b9dae119c903441aa4d6ca5d7578f3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -692,7 +692,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1271597293}
-  - component: {fileID: 1271597292}
+  - component: {fileID: 1271597294}
   m_Layer: 0
   m_Name: MenuManager
   m_TagString: Untagged
@@ -700,19 +700,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1271597292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1271597291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7eca08feb61f14d45bb827bd3443a832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nomeCenaJogo: 
 --- !u!4 &1271597293
 Transform:
   m_ObjectHideFlags: 0
@@ -728,6 +715,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1271597294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271597291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a29dda3e02e32644b531f1bb9dea7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nomeCenaJogo: Teste
 --- !u!1 &1450694739
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,7 +811,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1271597292}
+      - m_Target: {fileID: 1271597294}
         m_TargetAssemblyTypeName: NewMonoBehaviourScript, Assembly-CSharp
         m_MethodName: btnJogar
         m_Mode: 1
@@ -822,7 +822,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &1450694742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -843,7 +843,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7055366903784849090, guid: c5faee422c3f20e4d9785417fdcd1330, type: 3}
+  m_Sprite: {fileID: 7055366903784849090, guid: 85b9dae119c903441aa4d6ca5d7578f3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1236,7 +1236,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4072739111704973262, guid: 34153b2efbbb839489fdf40d8fea6bb5, type: 3}
+  m_Sprite: {fileID: -4072739111704973262, guid: 3cb3053035f3bbd4393f30efde6726cb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
