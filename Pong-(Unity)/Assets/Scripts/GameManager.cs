@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,7 +14,9 @@ public class GameManager : MonoBehaviour
     private bool pausa;
     public float velBolaX;
     public float velBolaY;
-    
+
+    [SerializeField] private string nomeCenaMenu;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -81,5 +84,10 @@ public class GameManager : MonoBehaviour
 
             pausa = false;
         }
+    }
+
+    public void btnRetomar()
+    {
+        SceneManager.LoadScene(nomeCenaMenu);
     }
 }
