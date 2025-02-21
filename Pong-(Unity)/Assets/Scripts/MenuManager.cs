@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
+    public AudioSource musicaMenu;
+
     [SerializeField] private string nomeCenaJogo;
     public void btnJogar()
     {   

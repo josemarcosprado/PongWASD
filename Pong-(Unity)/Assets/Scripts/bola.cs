@@ -7,21 +7,27 @@ public class bola : MonoBehaviour
     public Rigidbody2D oRigidbody2D;
     public AudioSource somDaBola;
 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        MoverBola();
+        MoverBola(VelocidadeDaBola, VelocidadeDaBola);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    private void MoverBola()
+    public void MoverBola(float velocidadeX, float velocidadeY)
     {
-        oRigidbody2D.linearVelocity = new Vector2(VelocidadeDaBola, VelocidadeDaBola);
+        oRigidbody2D.linearVelocity = new Vector2(velocidadeX, velocidadeY);
+    }
+
+    public void PararBola()
+    {
+        oRigidbody2D.linearVelocity = new Vector2(0, 0);
     }
 
     void OnCollisionEnter2D(Collision2D collisionInfo)
